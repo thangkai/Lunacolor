@@ -1,0 +1,195 @@
+{
+    "BuildID": "e138bd01-cf07-452a-ace3-d460000aca6e",
+    "Command": "project:build",
+    "ProjectID": "3d0a44f13a17b7c4e89d93f07627170f",
+    "ProjectStateHash": "08d19748e634cd71556e4e1fe7171720e40f93b4270c5d78c5f0e3bd94493933",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1751974368595,
+    "EndTime": 1751974402592,
+    "PlaygroundUserID": 25488,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "develop",
+    "UnityVersion": "2021.3.21f1",
+    "LunaVersion": "6.3.0",
+    "LogCount": 7,
+    "Logs": [
+        {
+            "LogID": "3a0d7e8f-c673-4036-a942-2b1479a651c8",
+            "Order": 6,
+            "Timestamp": 1751974402967,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "96d97341-6ed4-4525-8e53-1209e4fcd540",
+            "Order": 6,
+            "Timestamp": 1751974402967,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "549a99d5-b643-406a-a47c-b995b39e5c7f",
+            "Order": 0,
+            "Timestamp": 1751974377540,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1016",
+            "Description": "Extensive usage of ParticleSystem Component",
+            "Details": [
+                "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 214."
+            ],
+            "DescriptionValues": [
+                "ParticleSystem"
+            ],
+            "DetailsValues": [
+                "ParticleSystem",
+                "10",
+                "214"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "a5cc6763-59be-492c-8890-a5cdad7757a0",
+            "Order": 1,
+            "Timestamp": 1751974377541,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1022",
+            "Description": "Extensive use of shader variants",
+            "Details": [
+                "Extensive usage of shader variants negatively affects playable startup time. Please consider them to be less than 20 (26 found). Check Runtime analysis -> shader tab to see used shaders."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "20",
+                "26"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "980e2ad0-6d0e-4eda-a514-1f186b77fe00",
+            "Order": 2,
+            "Timestamp": 1751974377586,
+            "Stage": 1,
+            "ErrorType": 3,
+            "ErrorCode": "LP1002",
+            "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+            "Details": [
+                "Repeat wrap mode used on 'Cursor_S' texture at 'Assets/MyAssets/Sprites/Tutorials/Cursor_S.png' with non power-of-two dimensions, this might not be rendered correctly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "Cursor_S",
+                "Assets/MyAssets/Sprites/Tutorials/Cursor_S.png"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "Assets/MyAssets/Sprites/Tutorials/Cursor_S.png",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "228f2d64-4862-4dc8-84d6-8c32f7d3eb6a",
+            "Order": 3,
+            "Timestamp": 1751974377586,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1010",
+            "Description": "Looks like a collider was scaled, this might affect performance.",
+            "Details": [
+                "Looks like Plane collider on Plane game object was scaled, this might affect performance."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "Plane",
+                "Plane"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "cbc2861f-f8b6-4a31-b5cb-66aa4676e491",
+            "Order": 4,
+            "Timestamp": 1751974377586,
+            "Stage": 1,
+            "ErrorType": 3,
+            "ErrorCode": "LP1008",
+            "Description": "There are missing components on Music Source.",
+            "Details": [
+                "Music Source",
+                "SoundSource",
+                "SoundSourceCache",
+                "GameConfig",
+                "Music Source",
+                "SoundSource",
+                "SoundSourceCache",
+                "GameConfig",
+                "CanvasPopUp",
+                "Win_PopUp",
+                "Coin_Parent",
+                "EffectManager",
+                "TextEffect",
+                "GameManager",
+                "LevelHolder",
+                "ObjectFactory"
+            ],
+            "DescriptionValues": [
+                "Music Source"
+            ],
+            "DetailsValues": [],
+            "LogCount": 16,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}
